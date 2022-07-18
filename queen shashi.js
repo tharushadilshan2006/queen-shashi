@@ -89,7 +89,7 @@ gaya1 = setting.gaya1 || process.env.MENU_LOGO
 gaya2 = setting.gaya2
 const alfaimg = fs.readFileSync ('./queen-shashi.jpg')
 const thumb = fs.readFileSync ('./queen-shashi.jpg')
-const gitimg = fetchURL =('https://avatars.githubusercontent.com/u/64305844?v=4')
+const gitimg = fetchURL =('https://github.com/tharushadilshan2006/queen-shashi-jpg/blob/main/queen-shashi.jpg')
 
 
 
