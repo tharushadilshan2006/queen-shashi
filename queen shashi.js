@@ -71,3 +71,31 @@ const { mediafireDl } = require('./lib/mediafire.js')
 let { isLimit, limitAdd, getLimit, giveLimit, addBalance, kurangBalance, getBalance} = require("./lib/limit");
 let { checkPetualangUser, addInventori, addBesi, sellBesi, getBesi, addDm, sellDm, getDm, addEmas, sellEmas, getEmas, addFish, sellFish, getFish } = require("./lib/rpgfunction");
 let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLevelingLevel, getLevelingXp } = require("./lib/lvlfunction");
+
+//══════════[ Setting ]══════════//
+
+menutemplate = ''
+self = setting.self || process.env.WORK_TYPE
+autoread = setting.autoread || process.env.AUTO_READ
+nopref = setting.nopref 
+multi = setting.multi
+autotype = setting.autotype || process.env.AUTO_STICKER
+autostic = setting.autosticker || process.env.AUTO_TYPE
+autovn = setting.autovn || process.env.AUTO_VN
+owner = setting.OwnerNumber || process.env.OWNER_NUMBER
+botname = setting.BotName || process.env.BOT_NAME
+ownername = setting.OwnerName || process.env.OWNER_NAME
+gaya1 = setting.gaya1 || process.env.MENU_LOGO
+gaya2 = setting.gaya2
+const alfaimg = fs.readFileSync ('./media/Alien.jpg')
+const thumb = fs.readFileSync ('./media/Alfa.jpg')
+const gitimg = fetchURL =('https://avatars.githubusercontent.com/u/64305844?v=4')
+
+
+
+
+loc = true      //use 'true' on only one of these template
+link = false    //use 'true' on only one of these template
+pic = false     //use 'true' on only one of these template
+
+
